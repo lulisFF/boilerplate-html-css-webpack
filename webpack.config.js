@@ -24,8 +24,8 @@ module.exports = (env, argv) => {
         '@views': path.join(__dirname, 'src/views/'),
         '@images': path.join(__dirname, 'src/assets/images/'),
         '@fonts': path.join(__dirname, 'src/assets/fonts/'),
-        // '@styles': path.join(__dirname, 'src/assets/styles/'),
-        // '@scripts': path.join(__dirname, 'src/assets/scripts/'),
+        '@styles': path.join(__dirname, 'src/assets/styles/'),
+        '@scripts': path.join(__dirname, 'src/assets/scripts/'),
       },
     },
 
@@ -35,7 +35,7 @@ module.exports = (env, argv) => {
 
         entry: {
           // define HTML templates here
-          index: 'src/views/pages/news/index.html', // => dist/index.html
+          index: 'src/views/pages/main/index.html', // => dist/index.html
 
         },
 
